@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.spec.json",
+  "include": [
+    "src/tests/icon.component.spec.ts",
+    "src/**/*.d.ts"
+  ]
+}

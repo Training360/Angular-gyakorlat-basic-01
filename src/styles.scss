@@ -1,0 +1,29 @@
+/* Button groups. */
+.btn-group {
+  app-action-button {
+    button {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+  app-action-button:first-child {
+    button {
+      border-top-left-radius: .25rem;
+      border-bottom-left-radius: .25rem;
+    }
+  }
+  app-action-button:last-child {
+    button {
+      border-top-right-radius: .25rem;
+      border-bottom-right-radius: .25rem;
+    }
+  }
+}
+
+.data-list-row {
+  > *:nth-child(odd) {
+    background-color: lightgray;
+  }
+}
